@@ -1,0 +1,23 @@
+{
+  "overview": "A professional business information website for Fresh Valley Produce, a vegetable wholesaler. Showcases the company profile, product catalog, services, and a contact form for B2B inquiries from retailers and restaurants.",
+  "features": [
+    "Hero section with headline and call-to-action",
+    "Company profile with mission and key stats",
+    "Product catalog with 12+ vegetables and detail views",
+    "Services overview with key differentiators",
+    "Contact form with inquiry submission",
+    "Fully responsive design for mobile, tablet, and desktop",
+    "Smooth-scroll navigation with mobile hamburger menu",
+    "Footer with company info and quick links"
+  ],
+  "category": "showcase",
+  "tags": [
+    "vegetable-wholesaler",
+    "business-website",
+    "informational",
+    "b2b",
+    "product-catalog",
+    "contact-form"
+  ],
+  "last_updated": "2026-04-14T12:43:38.864Z"
+}

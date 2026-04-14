@@ -1,0 +1,183 @@
+import type { Product } from "../types";
+
+export const products: Product[] = [
+  {
+    id: "vine-ripened-tomatoes",
+    name: "Vine-Ripened Tomatoes",
+    description:
+      "Left on the vine until peak ripeness for full flavour depth. Ideal for restaurant sauces and retail premium lines. Rich umami flavour, smooth skin, consistent sizing.",
+    season: "Summer",
+    availability: "In Season",
+    category: "Nightshades",
+    sourcing: "Locally sourced — Sunfield Glasshouses, 25 km",
+    minOrder: "15 kg",
+    tags: ["Local", "Premium"],
+  },
+  {
+    id: "crispy-iceberg-lettuce",
+    name: "Crispy Iceberg Lettuce",
+    description:
+      "Dense, tightly-packed heads with refreshing crunch. Long shelf life and excellent moisture retention make it a staple for salad bars and sandwich counters.",
+    season: "Spring",
+    availability: "Available",
+    category: "Leafy Greens",
+    sourcing: "Locally sourced — Brackley Growers, 30 km",
+    minOrder: "10 kg",
+    tags: ["Local"],
+  },
+  {
+    id: "heritage-carrots",
+    name: "Heritage Carrots",
+    description:
+      "Multi-variety heritage carrots — purple, yellow, and orange — grown slowly for superior sweetness and crunch. A showstopper in restaurant presentations.",
+    season: "Autumn",
+    availability: "In Season",
+    category: "Root Vegetables",
+    sourcing: "Locally sourced — Riverdale Farms, 40 km",
+    minOrder: "10 kg",
+    tags: ["Organic", "Local"],
+  },
+  {
+    id: "mixed-bell-peppers",
+    name: "Mixed Bell Peppers",
+    description:
+      "Vibrant red, yellow, and green peppers in a mixed case. Thick walls, sweet flesh, ideal for stir fries, stuffed pepper dishes, and retail display.",
+    season: "Summer",
+    availability: "In Season",
+    category: "Nightshades",
+    sourcing: "Locally sourced — Sunfield Glasshouses, 25 km",
+    minOrder: "12 kg",
+    tags: ["Local", "Premium"],
+  },
+  {
+    id: "tenderstem-broccoli",
+    name: "Tenderstem Broccoli",
+    description:
+      "Long-stemmed broccoli with tender florets that need minimal prep. A premium option for restaurant menus and upscale retail. Sweet, nutty flavour profile.",
+    season: "Spring",
+    availability: "Available",
+    category: "Brassicas",
+    sourcing: "Locally sourced — Hillcrest Produce, 45 km",
+    minOrder: "8 kg",
+    tags: ["Local", "Premium"],
+  },
+  {
+    id: "baby-spinach",
+    name: "Baby Spinach",
+    description:
+      "Young, tender spinach leaves harvested at their peak. Ready-to-use for salads, smoothies, and cooked applications. Triple-washed and pre-cooled for freshness.",
+    season: "Year-Round",
+    availability: "Available",
+    category: "Leafy Greens",
+    sourcing: "Certified organic — Greenhill Organics",
+    minOrder: "5 kg",
+    tags: ["Organic", "Certified"],
+  },
+  {
+    id: "brown-onions",
+    name: "Brown Onions",
+    description:
+      "Year-round staple with tight outer skins and consistent sizing. Ideal for bulk catering and retail bagged lines. Classic pungent flavour, long storage life.",
+    season: "Year-Round",
+    availability: "Available",
+    category: "Alliums",
+    sourcing: "Regional network — East County Growers",
+    minOrder: "25 kg",
+    tags: ["Bulk"],
+  },
+  {
+    id: "maris-piper-potatoes",
+    name: "Maris Piper Potatoes",
+    description:
+      "The gold standard for chips and roasties. Consistently floury texture, pale gold skin, high dry matter. Available in retail 2.5 kg bags or 25 kg catering sacks.",
+    season: "Year-Round",
+    availability: "Available",
+    category: "Root Vegetables",
+    sourcing: "Regional network — East County Growers",
+    minOrder: "25 kg",
+    tags: ["Bulk"],
+  },
+  {
+    id: "ridge-cucumbers",
+    name: "Ridge Cucumbers",
+    description:
+      "Outdoor-grown ridge cucumbers with firm texture and subtle earthy flavour. Slightly shorter than glasshouse varieties with pleasingly textured skin.",
+    season: "Summer",
+    availability: "Limited",
+    category: "Gourds",
+    sourcing: "Locally sourced — Moorland Farm, 60 km",
+    minOrder: "10 kg",
+    tags: ["Local"],
+  },
+  {
+    id: "courgettes",
+    name: "Courgettes",
+    description:
+      "Mid-size courgettes harvested before skin hardens. Uniform shape for easy kitchen prep and attractive retail display. Excellent versatility across cuisines.",
+    season: "Summer",
+    availability: "Limited",
+    category: "Gourds",
+    sourcing: "Locally sourced — Sunfield Glasshouses, 25 km",
+    minOrder: "10 kg",
+    tags: ["Local"],
+  },
+  {
+    id: "savoy-cabbage",
+    name: "Savoy Cabbage",
+    description:
+      "Deeply crinkled, vibrant green heads with sweet, mild flavour. Superb in winter soups, stir fries, and braised preparations. Excellent frost resistance.",
+    season: "Winter",
+    availability: "Pre-Order",
+    category: "Brassicas",
+    sourcing: "Locally sourced — Hillcrest Produce, 45 km",
+    minOrder: "10 kg",
+    tags: ["Local"],
+  },
+  {
+    id: "wet-garlic",
+    name: "Wet Garlic",
+    description:
+      "Freshly harvested garlic with moist, aromatic bulbs and mild flavour. A seasonal premium ingredient prized by chefs. Available in bulb bunches or loose.",
+    season: "Spring",
+    availability: "Pre-Order",
+    category: "Alliums",
+    sourcing: "Locally sourced — Riverdale Farms, 40 km",
+    minOrder: "5 kg",
+    tags: ["Local", "Premium"],
+  },
+  {
+    id: "organic-kale",
+    name: "Organic Kale",
+    description:
+      "Certified organic curly kale, harvested young for tenderness. Consistent leaf size suits retail pre-pack. High iron and vitamin C — popular with health-focused retailers.",
+    season: "Year-Round",
+    availability: "Available",
+    category: "Leafy Greens",
+    sourcing: "Certified organic — Greenhill Organics",
+    minOrder: "5 kg",
+    tags: ["Organic", "Certified"],
+  },
+  {
+    id: "sweet-potatoes",
+    name: "Sweet Potatoes",
+    description:
+      "Orange-flesh sweet potatoes with high natural sugar content. Popular in restaurant menus and meal kits. Consistent sizing for retail bags and portion control.",
+    season: "Autumn",
+    availability: "In Season",
+    category: "Root Vegetables",
+    sourcing: "Locally sourced — Moorland Farm, 60 km",
+    minOrder: "20 kg",
+    tags: ["Local"],
+  },
+];
+
+export const categories = [
+  "All",
+  "Root Vegetables",
+  "Leafy Greens",
+  "Nightshades",
+  "Brassicas",
+  "Alliums",
+  "Legumes",
+  "Gourds",
+] as const;
